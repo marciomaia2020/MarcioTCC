@@ -136,3 +136,11 @@ li {
     h1,h2,h3,h4,h5,h6{
         text-align: center;
     }
+    .dom{
+      float: right;
+      /*margin-right: 0; /* ou qualquer valor desejado */
+    }
+
+/*float, margin, display etc 
+sao PROPRIEDADES
+*/

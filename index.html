@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Márcio TCC</title>
+    <script>
+    let count = 0;
+      function incrementCount() {
+        count++;
+        document.getElementById("count-display").textContent = count;
+      }
+    </script>
 </head>
-<body>
-    
+
+<div class="dom">
+  <h1>Manipulação do DOM</h1> 
+  <button onclick="incrementCount()">Clique aqui!</button>
+  <p>Total de Cliques: <span id="count-display">0</span></p>
+</div>
+
     <h2>Marcio TCC</h2>
 
 <p id="demo">Olá</p>
@@ -110,6 +122,25 @@
         
         </ul>
       </div>
+
+
+
+<pre>
+  A Linguagem de Manipulação de Documentos (DOM - Document Object Model) não é propriamente uma linguagem, mas sim uma interface de programação para documentos HTML, XML e SVG. O DOM representa a estrutura de um documento como um conjunto de objetos, permitindo que os programas acessem e manipulem o conteúdo, estrutura e estilo do documento.
+  O DOM organiza a estrutura de um documento em uma árvore de objetos, onde cada elemento, atributo e nó de texto são representados por um objeto no modelo. Isso significa que, por meio do DOM, é possível acessar e manipular qualquer parte de um documento HTML ou XML usando uma linguagem de programação como JavaScript.
+  
+  Por exemplo, com o DOM, você pode:
+  
+  <ol>
+      <li>Acessar elementos HTML individualmente.</li>
+      <li>Adicionar, modificar ou excluir elementos e atributos HTML.</li>
+      <li>Alterar estilos CSS de elementos HTML.</li>
+      <li>Responder a eventos HTML, como cliques de mouse e teclas pressionadas.</li>
+  </ol> 
+
+
+      O DOM é fundamental para a construção de aplicações web interativas e dinâmicas, pois permite que os desenvolvedores atualizem e manipulem a página web em tempo real, em resposta a ações do usuário ou a mudanças nas condições do aplicativo.
+</pre>
 
 
     <script defer src="js/script.js"></script>
