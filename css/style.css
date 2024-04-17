@@ -1,3 +1,5 @@
+
+
 * {box-sizing:border-box}
 * {font-family: 'Courier New', Courier, monospace;}
 * body{
@@ -133,14 +135,53 @@ li {
         margin-right: auto; /* Move o botão para a esquerda */
         display: block; /* Faz com que o botão se comporte como um bloco */
     }
+  div button  {
+    align-items: center;
+  }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
     h1,h2,h3,h4,h5,h6{
         text-align: center;
     }
+    h6{
+      text-align: left;
+      color: red;
+  }
     .dom{
       float: right;
       /*margin-right: 0; /* ou qualquer valor desejado */
     }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #e8de556c;
+    }
+div p{
+  color: #000;
+  text-align: left;
+  font-size: 12px;
 
-/*float, margin, display etc 
-sao PROPRIEDADES
-*/
+}
