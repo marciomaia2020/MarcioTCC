@@ -127,7 +127,7 @@ li {
     display: inline-block;
   }
   a:hover{
-    background-color: #e6e600;
+    background-color: rgb(49, 39, 12);
   }
   /*MENU HORIZONTAL FINAL*/
   button{
