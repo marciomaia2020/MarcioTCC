@@ -3,7 +3,7 @@
 * {box-sizing:border-box}
 * {font-family: 'Courier New', Courier, monospace;}
 * body{
-  background-color: #ad7e3f;
+  background-color: #813fad;
 }
 
 /* contêiner de apresentação de slides */
@@ -127,7 +127,7 @@ li {
     display: inline-block;
   }
   a:hover{
-    background-color: rgb(49, 39, 12);
+    background-color: #340a50;
   }
   /*MENU HORIZONTAL FINAL*/
   button{
